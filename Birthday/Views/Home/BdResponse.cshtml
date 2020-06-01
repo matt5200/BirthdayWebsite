@@ -1,0 +1,42 @@
+﻿@model Birthday.Models.BdResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>BdResponse</title>
+    <style>
+        h3 {
+            background-color: black;
+            color: grey;
+            font-size: large;
+        }
+
+        h2 {
+            font-size: x-large;
+        }
+
+        h1 {
+            color: grey;
+            font-size: small;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Birthday Card Generator</h3>
+    <h2>Birthday Card Sent</h2>
+    <h1>
+        <p>From: @Model.From
+        <p>To: @Model.To
+        <p>
+            Message: @Model.Message
+        </p>
+    </h1>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.field-validation-error {
+    /* color: #f00; */
+    display: none;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+}
+
+.validation-summary-valid {
+    display: none;
+}
